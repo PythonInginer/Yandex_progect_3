@@ -1,0 +1,35 @@
+button {
+    border: 1px solid #537072;
+    border-radius: 5px;
+    background: #8e9b97;
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    transition-duration: 0.3s;
+    position: relative;
+}
+
+table {
+	border: 1px solid black;
+    border-color: black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid black;
+}
+
+body {
+	background: #f4ebdb;
+	margin: 0;
+	height: 100vh;
+}
+
+header {
+	height: 100%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css' )}}">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>{{ table_style }} </style>
+	<title>Главная страница</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Сайт для учёта школьных ПК</h1>
+    <div class="Buttons">
+        <div class="first_lane">
+            <a href="sort_1.html"><button>АРМ учителя</button></a>
+            <a href="sort_2.html"><button>Образование</button></a>
+            <a href="sort_3.html"><button>АРМ админ</button></a>
+            <a href="sort_4.html"><button>админ</button></a>
+            <a href="sort_5.html"><button><2013</button></a>
+            <a href="sort_6.html"><button>2013-2017</button></a>
+            <a href="sort_7.html"><button>2017-2018</button></a>
+            <a href="sort_8.html"><button>2019-2020</button></a>
+            <a href="sort_9.html"><button>ПК</button></a>
+        </div>
+        <div class="second_lane">
+            <a href="sort_10.html"><button>Сеть</button></a>
+            <a href="sort_11.html"><button>Ноутбук</button></a>
+            <a href="sort_12.html"><button>Камера</button></a>
+            <a href="sort_13.html"><button>Интер.доска</button></a>
+            <a href="sort_14.html"><button>Мультимедиапроектор</button></a>
+            <a href="sort_15.html"><button>Доска+проектор</button></a>
+            <a href="sort_16.html"><button>принтер</button></a>
+            <a href="sort_17.html"><button>Сканер</button></a>
+            <a href="sort_18.html"><button>МФУ</button></a>
+        </div>
+    </div>
+    <div class="Table">
+        <table>
+            <tr>
+                {{ headers }}
+            </tr>
+            {{ table_osn }}
+        </table>
+    </div>
+    </div>
+</body>
+</html>
